@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/app.css"/>
+        
+        <script type="text/javascript" src="app/app.js"></script>
+        <script type="text/javascript" src="app/User.js"></script>
+    </head>
+    <body onload="javascript:onLoad();">
+        <div class="main">
+            <h1>12@13 JS</h1>
+            
+            <div>
+                <label for="login">Login : </label>
+                <input type="text" title="Login" id="login" value="jbouyer">
+            </div>
+            <div>
+                <label for="pwd">Password : </label>
+                <input type="password" title="Password" id="pwd" value="jbouyer"/>
+            </div>
+            <div>
+                <input type="button" onclick="connect()" value="Connect"/>
+            </div>
+            <div class="result">
+                <span id="errorSpan" class="error"></span>
+            </div>
+            
+        </div>
+    </body>
+</html>

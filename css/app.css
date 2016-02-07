@@ -1,0 +1,41 @@
+
+body {
+	font-family: cursive;
+	font-size: 0.8em;
+}
+
+#content, 
+.main {
+	border: 1px solid #000;
+	margin: 0 auto;
+	position: relative;
+	width: 780px;
+	height: 280px;
+	padding: 10px;
+	overflow: auto;
+}
+
+h1 {
+	border-bottom: 1px dashed;
+	text-align: center;
+	color: #060;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.result {
+	margin: 15px 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.error {
+    color: #f00;
+	font-size: 18px;
+}
+
+#userzone {
+    display: none;
+}
